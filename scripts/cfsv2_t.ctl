@@ -1,12 +1,12 @@
-dset /home/apache/climate/gensini/gold/rodeo/data/temp/1704170000F%f3.cfs1
-index /home/apache/climate/gensini/gold/rodeo/data/temp/1704170000F%f3.cfs1.idx
+dset ^../data/temp/1705010000F%f3.cfs1
+index ^../data/temp/1705010000F360.cfs1.idx
 undef 9.999E+20
-title /home/apache/climate/gensini/gold/rodeo/data/temp/1704170000F000.cfs2
+title ../data/temp/1705010000F360.cfs1
+options template
 * produced by g2ctl v0.1.2
-* command line options: /home/apache/climate/gensini/gold/rodeo/data/temp/1704170000F870.cfs2
+* command line options: ../data/temp/1705010000F360.cfs1
 * griddef=1:0:(384 x 190):grid_template=40:winds(N/S): Gaussian grid: (384 x 190) units 1e-06 input WE:NS output WE:SN number of latitudes between pole-equator=95 #points=72960 lat 89.277000 to -89.277000 lon 0.000000 to 359.062000 by 0.938000:winds(
 dtype grib2
-options template
 * ny=190 nlat=190 lat0=-89.277000 lat1=89.277000
 xdef 384 linear 0.000000 0.937498694516971
 ydef 190 levels
@@ -24,7 +24,7 @@ ydef 190 levels
   56.220  57.165  58.110  59.055  60.000  60.945  61.889  62.834  63.779  64.724  65.669  66.614  67.559  68.503
   69.448  70.393  71.338  72.283  73.228  74.173  75.117  76.062  77.007  77.952  78.897  79.841  80.786  81.731
   82.676  83.620  84.565  85.509  86.454  87.397  88.340  89.277
-tdef 165 linear 00Z17apr2017 6hr
+tdef 168 linear 00Z01may2017 6hr
 zdef 1 linear 1 1
 vars 3
 TMAX2m   0,103,2   0,0,4 ** 2 m above ground Maximum Temperature [K]

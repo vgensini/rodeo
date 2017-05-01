@@ -41,9 +41,9 @@ import netCDF4
 # print lons.shape
 # print lats[::-1]
 
-dset = netCDF4.Dataset('/home/apache/climate/gensini/gold/rodeo/forecasts/temp_week34_20170418.nc','r+')
+dset = netCDF4.Dataset('/home/apache/climate/gensini/gold/rodeo/forecasts/temp_week34_20170502.nc','r+')
 fcst = netCDF4.Dataset('/home/apache/climate/gensini/gold/rodeo/scripts/avgt_per1.nc','r+')
-dset.variables["temp_week34"][:]=fcst.variables["avgt1"][:]
+dset.variables["temp_week34"][:]=fcst.variables["avgt1"][::-1]
 dset.close()
 fcst.close()
 
