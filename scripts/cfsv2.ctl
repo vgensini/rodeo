@@ -1,4 +1,4 @@
-dset ^../data/precip/1705010000F%f3.cfs1
+dset ^../data/precip/1705150000F%f3.cfs1
 index ^../data/precip/1705010000F360.cfs1.idx
 undef 9.999E+20
 title ../data/precip/1705010000F360.cfs1
@@ -9,7 +9,7 @@ options template
 dtype grib2
 ydef 181 linear -90.000000 1
 xdef 360 linear 0.000000 1.000000
-tdef 168 linear 00Z01may2017 6hr
+tdef 168 linear 00Z15may2017 6hr
 zdef 1 linear 1 1
 vars 1
 APCPsfc   0,1,0   0,1,8,1 ** surface Total Precipitation [kg/m^2]

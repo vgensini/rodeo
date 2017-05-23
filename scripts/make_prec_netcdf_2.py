@@ -41,7 +41,7 @@ m.drawcoastlines(linewidth=0.5,color='gray')
 # print lons.shape
 # print lats[::-1]
 
-dset = netCDF4.Dataset('/home/apache/climate/gensini/gold/rodeo/forecasts/apcp_week56_20170502.nc','r+')
+dset = netCDF4.Dataset('/home/apache/climate/gensini/gold/rodeo/forecasts/apcp_week56_20170516.nc','r+')
 fcst = netCDF4.Dataset('/home/apache/climate/gensini/gold/rodeo/scripts/prec_per2.nc','r+')
 dset.variables["apcp_week56"][:]=fcst.variables["paccum"][::-1]
 dset.close()

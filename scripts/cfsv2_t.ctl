@@ -1,4 +1,4 @@
-dset ^../data/temp/1705010000F%f3.cfs1
+dset ^../data/temp/1705150000F%f3.cfs1
 index ^../data/temp/1705010000F360.cfs1.idx
 undef 9.999E+20
 title ../data/temp/1705010000F360.cfs1
@@ -24,7 +24,7 @@ ydef 190 levels
   56.220  57.165  58.110  59.055  60.000  60.945  61.889  62.834  63.779  64.724  65.669  66.614  67.559  68.503
   69.448  70.393  71.338  72.283  73.228  74.173  75.117  76.062  77.007  77.952  78.897  79.841  80.786  81.731
   82.676  83.620  84.565  85.509  86.454  87.397  88.340  89.277
-tdef 168 linear 00Z01may2017 6hr
+tdef 168 linear 00Z15may2017 6hr
 zdef 1 linear 1 1
 vars 3
 TMAX2m   0,103,2   0,0,4 ** 2 m above ground Maximum Temperature [K]
